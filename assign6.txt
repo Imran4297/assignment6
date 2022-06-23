@@ -1,0 +1,17 @@
+1. What is merge conflict?
+
+   A merge conflict is an event that takes place when Git is unable to automatically resolve differences in code between two commits.
+ Git can merge the changes automatically only if the commits are on different lines or branches.
+
+    
+2.How to resolve the conflict?
+
+  Under your repository name, click Pull requests.
+  In the "Pull Requests" list, click the pull request with a merge conflict that you'd like to resolve.
+  Near the bottom of your pull request, click Resolve conflicts.
+
+3.what is difference between git fetch and git pull?
+
+ git fetch is the command that tells your local git to retrieve the latest meta-data info from the original
+ It doesn't do any file transferring. It's more like just checking to see if there are any changes available.
+ git pull on the other hand does that AND brings (copy) those changes from the remote repository.
